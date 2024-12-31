@@ -1,0 +1,63 @@
+body {  
+  font-family: sans-serif;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+.intake-container {  
+  display: flex;  
+  flex-wrap: wrap;  
+  justify-content: center;  
+  max-width: 1200px;  
+  margin: 40px auto;  
+  padding: 20px;  
+  background-color: #fff;  
+  border: 1px solid #ddd;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+.intake {  
+  width: 300px;  
+  margin: 20px;  
+  padding: 20px;  
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+  text-align: center;  
+}  
+  
+h2 {  
+  margin-top: 0;  
+}  
+  
+.pros-cons {  
+  margin-top: 20px;  
+}  
+  
+.pros-cons ul {  
+  list-style: none;  
+  padding: 0;  
+  margin: 0;  
+}  
+  
+.pros-cons li {  
+  margin-bottom: 5px;  
+}  
+  
+.pros-cons li::before {  
+  content: "\2022";  
+  margin-right: 10px;  
+}  
+  
+button {  
+  margin-top: 10px;  
+  padding: 10px 20px;  
+  border: none;  
+  border-radius: 5px;  
+  background-color: #4CAF50;  
+  color: #fff;  
+  cursor: pointer;  
+}  
+  
+button:hover {  
+  background-color: #3e8e41;  
+}

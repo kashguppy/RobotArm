@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>FTC Robotics Intakes</title>  
+  <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+  <h1>FTC Robotics Intakes</h1>  
+  
+  <div class="intake-container">  
+   <div class="intake">  
+    <h2>Roller Intake</h2>  
+    <div class="interactive">  
+      <canvas id="roller-intake-canvas" width="400" height="400"></canvas>  
+      <button id="roller-intake-button">Pick Up Block</button>  
+    </div>  
+    <div class="info">  
+      <p>This intake uses rollers to pick up game pieces.</p>  
+      <ul class="pros-cons">  
+       <li>Pros:</li>  
+       <li>Easy to build and maintain</li>  
+       <li>Can pick up game pieces quickly</li>  
+      </ul>  
+      <ul class="pros-cons">  
+       <li>Cons:</li>  
+       <li>May not be able to pick up game pieces that are too heavy</li>  
+       <li>Can be noisy</li>  
+      </ul>  
+    </div>  
+   </div>  
+  
+   <div class="intake">  
+    <h2>Claw Intake</h2>  
+    <div class="interactive">  
+      <canvas id="claw-intake-canvas" width="400" height="400"></canvas>  
+      <button id="claw-intake-button">Pick Up Block</button>  
+    </div>  
+    <div class="info">  
+      <p>This intake uses a claw to pick up game pieces.</p>  
+      <ul class="pros-cons">  
+       <li>Pros:</li>  
+       <li>Can pick up game pieces that are too heavy for roller intakes</li>  
+       <li>Can be more precise than roller intakes</li>  
+      </ul>  
+      <ul class="pros-cons">  
+       <li>Cons:</li>  
+       <li>Can be more difficult to build and maintain</li>  
+       <li>May not be able to pick up game pieces as quickly as roller intakes</li>  
+      </ul>  
+    </div>  
+   </div>  
+  
+   <div class="intake">  
+    <h2>Hybrid Intake</h2>  
+    <div class="interactive">  
+      <canvas id="hybrid-intake-canvas" width="400" height="400"></canvas>  
+      <button id="hybrid-intake-button">Pick Up Block</button>  
+    </div>  
+    <div class="info">  
+      <p>This intake uses a combination of rollers and a claw to pick up game pieces.</p>  
+      <ul class="pros-cons">  
+       <li>Pros:</li>  
+       <li>Can pick up game pieces quickly and precisely</li>  
+       <li>Can handle game pieces of different weights and sizes</li>  
+      </ul>  
+      <ul class="pros-cons">  
+       <li>Cons:</li>  
+       <li>Can be more difficult to build and maintain than other intakes</li>  
+       <li>May be more expensive than other intakes</li>  
+      </ul>  
+    </div>  
+   </div>  
+  </div>  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>  
+  <script src="script.js"></script>  
+</body>  
+</html>
